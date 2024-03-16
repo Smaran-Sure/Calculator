@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src = "javascript.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id = "calcBackground">
+        <div id = "output-section"><p id="output"></p></div>
+        <div id = "displayPopulator">
+            <div id = "container">
+                    <div id = "firstRow" class = row>
+                        <button class="btnGray" id = "clear"><p>C</p></button>
+                        <button class="btnGray" id = "invert"><p>+/-</p></button>
+                        <button class="btnGray" id ="percent"><p>%</p></button>
+                        <button  class = "operator"><p>+</p></button>
+                    </div>
+                    <div id = "secondRow" class = "row">
+                        <button class="btnNum"><p>1</p></button>
+                        <button class="btnNum"><p>2</p></button>
+                        <button class="btnNum"><p>3</p></button>
+                        <button  class = "operator"><p>-</p></button>
+                    </div>
+                    <div id = "thirdRow" class = "row">
+                        <button class="btnNum"><p>4</p></button>
+                        <button class="btnNum"><p>5</p></button>
+                        <button class="btnNum"><p>6</p></button>
+                        <button  class = "operator"><p>×</p></button>
+                    </div>
+                    <div id = "fourthRow" class = "row">
+                        <button class="btnNum"><p>7</p></button>
+                        <button class="btnNum"><p>8</p></button>
+                        <button class="btnNum"><p>9</p></button>
+                        <button  class = "operator"><p>/</p></button>
+                    </div>  
+                <div id = "last-row" class = "row">
+                    <button id = "zero" class="btnNum"><p>0</p></button>
+                    <button id = "decimal"><p>.</p></button>  
+                    <button  id = "equalOperator"><p>=</p></button>
+                </div>
+            </div>
+            <button class="btnGray" id = "delete"><p>DEL</p></button>
+        </div>
+         
+    </div>
+</body>
+</html>
+
