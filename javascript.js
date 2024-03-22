@@ -132,5 +132,5 @@ function operate(a,b) {
 }
 
 function updateDisplay() {
-    outputSection.textContent = Math.round(currentNum * 100) / 100;;
+    outputSection.textContent = currentNum;
 }
